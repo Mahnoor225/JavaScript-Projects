@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="grid grid-cols-1 place-items-center text-4xl p-7 font-bold">
+            <h1>
+                Todo App
+            </h1>
+        </div>
+        <div class="main-add grid grid-cols-1 md:grid-cols-3 gap-y-7 place-items-center px-6 my-6">
+         <div class="border-black border-2 p-3">
+            <input id="todo-input" type="text" placeholder="Enter TODO here">
+         </div>
+         <div class="border-black border-2 p-3 font-semibold">
+            <input type="date" name="" id="todo_date">
+         </div>
+         <div class=" px-8 py-2.5 bg-[#007C01] rounded-lg">
+            <button class="text-md  text-white" onclick="addTodo()">Add</button>
+         </div>
+
+        </div>
+        <!-- todo list  -->
+        <div class="todo-container">
+
+        </div>
+           
+    </div>
+    <script src="../src//output.js"></script>
+</body>
+
+</html>
